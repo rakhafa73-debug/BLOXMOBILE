@@ -1,0 +1,48 @@
+import { UserPreset } from '../types';
+
+export const INITIAL_PRESETS: UserPreset[] = [
+  {
+    id: 'default-blox-dark',
+    name: 'Bloxstrap Classic Dark',
+    isDefault: true,
+    theme: 'dark',
+    accent: 'violet',
+    bgPattern: 'mesh',
+    animationIntensity: 'full',
+    customGameHubGrid: 'comfortable',
+    updatedAt: '2026-01-01T00:00:00.000Z',
+  },
+  {
+    id: 'amoled-stealth',
+    name: 'OLED Battery Saver',
+    isDefault: false,
+    theme: 'amoled',
+    accent: 'emerald',
+    bgPattern: 'plain',
+    animationIntensity: 'subtle',
+    customGameHubGrid: 'compact',
+    updatedAt: '2026-01-01T00:00:00.000Z',
+  },
+  {
+    id: 'cyber-neon',
+    name: 'Cyberpunk Blox',
+    isDefault: false,
+    theme: 'neon',
+    accent: 'cyan',
+    bgPattern: 'grid',
+    animationIntensity: 'full',
+    customGameHubGrid: 'comfortable',
+    updatedAt: '2026-01-01T00:00:00.000Z',
+  },
+  {
+    id: 'crimson-tactical',
+    name: 'Tactical Crimson',
+    isDefault: false,
+    theme: 'dark',
+    accent: 'rose',
+    bgPattern: 'dots',
+    animationIntensity: 'subtle',
+    customGameHubGrid: 'compact',
+    updatedAt: '2026-01-01T00:00:00.000Z',
+  },
+];

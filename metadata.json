@@ -1,0 +1,6 @@
+{
+  "name": "BloxMobile PWA",
+  "description": "Mobile-first gaming companion PWA inspired by Bloxstrap for Roblox players on Android & iOS with Game Hub, Honest Diagnostics, and Customization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
